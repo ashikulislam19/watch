@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Watch gallery</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="sec">
+        <header>
+            <a href="" class="logo"><img src="Ashikul%20islam.png" alt="" width="100px"></a>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">What's New</a></li>
+                <li><a href="">News letter</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <h2>That's What <br> <span>I Like</span> </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae iusto recusandae similique eius soluta? Quo dolor, id rem in possimus mollitia placeat nulla, nemo blanditiis magnam aliquid enim fuga veniam cum error non sint nam tempore commodi.</p>
+                <br>
+                <a href="#">View All product</a>
+            </div>
+            <div class="imgbox">
+                <img src="1%20(1).jpg" class="watch">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="1%20(1).jpg" alt="" onclick="imgslider('1%20(1).jpg')"></li>
+            
+            
+            <li><img src="2%20(1).jpg" alt="" onclick="imgslider('2%20(1).jpg')"></li>
+            <li><img src="2%20(1).png" alt="" onclick="imgslider('2%20(1).png')"></li>
+            <li><img src="2%20(2).png" alt="" onclick="imgslider('2%20(2).png')"></li>
+            
+        </ul>
+    </section>
+    <script type="text/javascript">
+    function imgslider(anything){
+        document.querySelector('.watch').src = anything;
+    }
+    </script>
+</body>
+</html>
